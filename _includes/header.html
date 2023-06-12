@@ -5,7 +5,7 @@
             "fixMoment": 1000,
             "fixEffect": "slide"
           }'>
-  {%- assign default_paths = site.pages | map: "path" -%}
+  {%- assign default_paths = site.pages | sort:"order" | map: "path" -%}
   {%- assign page_paths = site.header_pages | default: default_paths -%}
   <div class="header-section">
     <!-- Topbar -->
@@ -119,7 +119,8 @@
         <div id="navBar" class="collapse navbar-collapse">
           <div class="navbar-body header-abs-top-inner">
             <ul class="navbar-nav text-dark">
-            {{ assign custom_path = ["Home", "Call for Papers", "Committee", "Sponsorship"] }}
+             
+            {{ assign custom_path = "Home", "Call for Papers", "Committee", "Sponsorship" }}
               {%- for path in page_paths -%}
               {%- assign my_page = site.pages | where: "path", path | first -%}
               {%- if my_page.title -%}
@@ -129,6 +130,7 @@
               </li>
               {%- endif -%}
               {%- endfor -%}
+            
               <!-- <li class="navbar-nav-item">
                   <a class="nav-link text-dark" href="#intro">Intro</a>
                 </li>

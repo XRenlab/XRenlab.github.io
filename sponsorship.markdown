@@ -2,6 +2,7 @@
 layout: sponsorship
 title: Sponsorship
 permalink: /sponsorship/
+order: 4
 ---
 
 世界华人华侨人机交互协会 (International Chinese Association of Computer Human Interaction，简称“ICACHI”) 举办的 Chinese CHI 2023 会议将于2023年11月13日至14日在印度尼西亚巴厘岛清华大学东南亚中心召开。

@@ -5,6 +5,7 @@
 layout: home
 title: Home
 permalink: /
+order: 1
 ---
 The Tenth International Symposium of Chinese CHI (Chinese CHI 2022, jointly with the International Workshop on Human-Engaged Computing) will be structured as a Hybrid-Onsite conference from November 5–6 in Guangzhou, China. Supported by the International Chinese Association of Computer Human Interaction (ICACHI), Chinese CHI is steered by a group of globally distributed HCI researchers, practitioners, academics, and students concerning about the development of HCI as a thriving field in the global Chinese communities. Chinese CHI serves as a primary forum for connecting the international HCI community to the booming Chinese computing industry.
 
