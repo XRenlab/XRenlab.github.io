@@ -1,0 +1,78 @@
+---
+layout: default
+---
+
+<!-- Info -->
+<div class="container">
+  <!-- <h3 class="mb-4 text-center" id="intro">简介</h3> -->   
+  <div class="text-justify" id="intro">
+    {{ content }}
+  </div>
+  <!-- Clients Section -->
+  <div class="container space-1 mt-n4">
+    <div class="row">
+      <div class="col-12 space-1">
+        
+
+        <!-- Clients -->
+        <div class="row justify-content-between text-center mb-8">
+          <div class="col-8 col-sm-12">
+            <!-- Title -->
+            <div class="w-md-75 w-lg-50 text-center mx-md-auto mb-7">
+              <h4 class="text-body h6 text-cap">HOST / 主办</h4>
+            </div>
+            <!-- End Title -->
+
+          <div class="row">
+            <div class="col-6 col-lg-6 mb-5 mb-lg-0">
+              <div class="mx-3">
+                <a href="http://www.icachi.org" target="_blank">
+                  <img class="mx-auto mb-4" style="max-width:12rem;"
+                    src="{{ site.baseurl }}/assets/img/logo/icachi-logo.svg" alt="Image Description">
+                    <h4 class="text-body h6 text-cap">世界华人华侨人机交互协会</h4>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-lg-6 mb-5 mb-lg-0">
+              <div class="mx-3">
+                <a href="https://www.tsinghua.edu.cn" target="_blank">
+                  <img class="mx-auto mb-4" style="max-width:12rem;"
+                    src="{{ site.baseurl }}/assets/img/logo/tsinghua.jpg" alt="Image Description">
+                    <h4 class="text-body h6 text-cap">清华大学</h4>
+                </a>
+              </div>
+            </div>
+
+          </div>
+          </div>
+
+  </div>
+  <!-- End Clients Section -->
+
+  {%- if site.posts.size > 0 -%}
+  <h2 class="post-list-heading">{{ page.list_title | default: "News" }}</h2>
+  <ul class="post-list">
+    {%- for post in site.posts -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+        {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+{%- endif -%}
+</div>
+</div>
+</div>
+</div>
+<!-- End Info -->
+
