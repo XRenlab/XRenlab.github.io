@@ -120,9 +120,7 @@
           <div class="navbar-body header-abs-top-inner">
             <ul class="navbar-nav text-dark">
              
-            {{ assign custom_path = "Home", "Call for Papers", "Committee", "Sponsorship" }}
-              {%- for path in page_paths -%}
-              {{ path }}
+              <!-- {%- for path in page_paths -%}
               {%- assign my_page = site.pages | where: "path", path | first -%}
               {%- if my_page.title -%}
       
@@ -130,51 +128,13 @@
                 <a class="nav-link text-dark" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
               </li>
               {%- endif -%}
-              {%- endfor -%}
-            
-              <!-- <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#intro">Intro</a>
-                </li>
-                <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#program">Program</a>
-                </li>
-                <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#huawei">HUAWEI Competition</a>
-                </li>
-                <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#workshop">Workshop</a>
-                </li>
-                <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#reg">Registration</a>
-                </li>
-                <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#callforpaper">Call for Papers</a>
-                </li> -->
-              <!-- <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#callforlatebreakingwork">Late Breaking Work</a>
-                </li>
-                <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#callforworkshop">Workshop</a>
-                </li>
-                <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#callforexhibition">Art Gallery</a>
-                </li>
-
-                <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#callforcompetition">Competition</a>
-                </li> -->
-              <!-- <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#committee">Committee</a>
-                </li> -->
-              <!-- <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="#volunteer">Volunteer</a>
-                </li> -->
-              <!--<li class="navbar-nav-item">
-                  <a class="nav-link" href="#pc">PC</a>
-                </li> -->
-              <!-- <li class="navbar-nav-item">
-                  <a class="nav-link text-dark" href="sponsor.html">Sponsorship</a>
-                </li> -->
+              {%- endfor -%} -->
+              {% assign navlist = site.data.struct.nav | sort: 'order'  %}
+              {% for item in navlist %}
+                  <li class="navbar-nav-item">
+                    <a class="nav-link text-dark" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>
+                  </li>
+              {% endfor %}
 
             </ul>
           </div>

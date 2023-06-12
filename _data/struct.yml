@@ -1,0 +1,17 @@
+nav:
+
+- title: Home
+  url: /
+  order: 1
+
+- title: Call for Paper
+  url: /callforpapers/
+  order: 2
+
+- title: Committee
+  url: /committee/
+  order: 3
+
+- title: Sponsorship
+  url: /sponsorship/
+  order: 4
