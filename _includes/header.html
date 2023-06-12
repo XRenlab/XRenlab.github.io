@@ -122,6 +122,7 @@
              
             {{ assign custom_path = "Home", "Call for Papers", "Committee", "Sponsorship" }}
               {%- for path in page_paths -%}
+              {{ path }}
               {%- assign my_page = site.pages | where: "path", path | first -%}
               {%- if my_page.title -%}
       
