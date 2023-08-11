@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1800px) {
+    .hero-size {
+        height:100%;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .hero-size {
+        width:100%;
+    }
+}
+
+
+ 
