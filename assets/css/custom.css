@@ -10,5 +10,45 @@
     }
 }
 
+#sider-menu {
+    margin-top:40px;
+    margin-left:30px;
+    border-radius: 6px;
+    /* background-color:#F5F5F5; */
+    padding:30px;
+  }
+  
+  @media screen and (max-width: 1217px)  {
+    #sider-menu {
+      display:none;
+    }
+  }
+  
+  @media screen and (min-width: 1218px) and (max-width: 1360px) {
+    #sider-menu {
+      margin-left:10px;
+    }
+  }
+  
+  #sider-menu .nav>li>a {
+    color:#333333;
+  }
+  #sider-menu .nav>li>a:hover {
+    background-color:#dddddd;
+    border-radius:6px;
+    border-bottom: none;
+  }
+  #sider-menu .nav>.active>a {
+    border-left: 1px solid #344C89;
+    border-bottom: none;
+    color:white;
+  }
+  #sider-menu .nav>.active>a:hover {
+    background-color:#344C89;
+  }
+  .call-finish {
+      color:#aaaaaa;
+  }
+  
 
  
