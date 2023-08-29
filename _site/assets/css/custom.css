@@ -30,21 +30,23 @@
     }
   }
   
-  #sider-menu .nav>li>a {
-    color:#333333;
+  #sider-menu .navbar-nav>li>a {
+    color:#377dff;
   }
-  #sider-menu .nav>li>a:hover {
-    background-color:#dddddd;
+  #sider-menu .navbar-nav>li>a:hover {
+    background-color:#eeeeee;
     border-radius:6px;
     border-bottom: none;
+    
   }
-  #sider-menu .nav>.active>a {
-    border-left: 1px solid #344C89;
+  #sider-menu .navbar-nav>.active>a {
+    /* border-left: 1px solid #377dff; */
     border-bottom: none;
-    color:white;
+    color:#377dff;
   }
-  #sider-menu .nav>.active>a:hover {
-    background-color:#344C89;
+  #sider-menu .navbar-nav>.active>a:hover {
+    background-color:#377dff;
+    color:White;
   }
   .call-finish {
       color:#aaaaaa;

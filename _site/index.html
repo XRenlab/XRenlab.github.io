@@ -184,7 +184,7 @@
                   </li>
               
                   <li class="navbar-nav-item">
-                    <a class="nav-link text-dark" href="/callforpapers/">Call for Paper</a>
+                    <a class="nav-link text-dark" href="/callforpapers/">For Authors</a>
                   </li>
               
                   <li class="navbar-nav-item">
@@ -536,8 +536,8 @@
         item = new Array(),//新建一个数组
         sTop = $(window).scrollTop();//获取偏移的高度
 
-    if($("#sider-menu").offset().top <= 1000 ){
-        $("#sider-menu").offset({top:1200});
+    if($("#sider-menu").offset().top <= 850 ){
+        $("#sider-menu").offset({top:810});
         
         console.log($("#sider-menu").offset().top)
     } else {
@@ -547,9 +547,10 @@
 
     for (var i = 0; i < length; i++) {
         if (i == 0) {
+            console.log($(".blockList:first-child"));
             item[i + 1] = $(".blockList:first-child").offset().top;
             if (sTop >= item[i + 1]) {
-                $nav.eq(i).addClass("active").siblings("li a").removeClass("active");//选中的样式selected  
+                $nav.eq(i).addClass("active").siblings("li").removeClass("active");//选中的样式selected  
 
             }
             
