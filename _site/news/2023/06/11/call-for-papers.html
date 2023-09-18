@@ -176,6 +176,8 @@
               </li><li class="navbar-nav-item">
                 <a class="nav-link text-dark" href="/">Home</a>
               </li><li class="navbar-nav-item">
+                <a class="nav-link text-dark" href="/registration/">Registration</a>
+              </li><li class="navbar-nav-item">
                 <a class="nav-link text-dark" href="/sponsorship/">Sponsorship</a>
               </li>-->
               
@@ -186,6 +188,10 @@
               
                   <li class="navbar-nav-item">
                     <a class="nav-link text-dark" href="/callforpapers/">For Authors</a>
+                  </li>
+              
+                  <li class="navbar-nav-item">
+                    <a class="nav-link text-dark" href="/registration/">Registration</a>
                   </li>
               
                   <li class="navbar-nav-item">
@@ -531,7 +537,17 @@
 })
 
 </script>
-
+<script>
+  $(document).ready(function(){
+    $("#registration-button").click(function(){
+      funtion($(".survey-header").css('display', 'hide')){
+      console.log("remove skin")};
+      
+      $(".page-footer").css('display', 'hide');
+      console.log("remove footer");
+    });
+  });
+</script>
 <script>
   $(document).on('ready', function () {
     // INITIALIZATION OF SLICK CAROUSEL

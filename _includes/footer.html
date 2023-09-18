@@ -195,7 +195,17 @@
 })
 
 </script>
-
+<script>
+  $(document).ready(function(){
+    $("#registration-button").click(function(){
+      funtion($(".survey-header").css('display', 'hide')){
+      console.log("remove skin")};
+      
+      $(".page-footer").css('display', 'hide');
+      console.log("remove footer");
+    });
+  });
+</script>
 <script>
   $(document).on('ready', function () {
     // INITIALIZATION OF SLICK CAROUSEL

@@ -8,10 +8,14 @@ nav:
   url: /callforpapers/
   order: 2
 
+- title: Registration
+  url: /registration/
+  order: 3
+
 - title: Committee
   url: /committee/
-  order: 3
+  order: 4
 
 - title: Sponsorship
   url: /sponsorship/
-  order: 4
+  order: 5
