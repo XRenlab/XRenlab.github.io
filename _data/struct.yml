@@ -12,10 +12,18 @@ nav:
   url: /registration/
   order: 3
 
+- title: Program
+  url: /program/
+  order: 4
+
+- title: IWHEC & Workshops
+  url: /iwhec2023/
+  order: 5
+
 - title: Committee
   url: /committee/
-  order: 4
+  order: 6
 
 - title: Sponsorship
   url: /sponsorship/
-  order: 5
+  order: 7
