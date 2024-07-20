@@ -2,11 +2,11 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: 24/home
 title: Home
 permalink: /24/
 ---
-The Eleventh International Symposium of Chinese CHI (Chinese CHI 2023) will be held from November 13–16 in Kurakura Island, Bali, Indonesia. Supported by the International Chinese Association of Computer Human Interaction (ICACHI), Chinese CHI is steered by a group of globally distributed HCI researchers, practitioners, academics, and students concerning about the development of HCI as a thriving field in the global Chinese communities. Chinese CHI serves as a primary forum for connecting the international HCI community to the booming Chinese computing industry.
+The Eleventh International Symposium of Chinese CHI (Chinese CHI 2024) will be held from November 13–16 in Kurakura Island, Bali, Indonesia. Supported by the International Chinese Association of Computer Human Interaction (ICACHI), Chinese CHI is steered by a group of globally distributed HCI researchers, practitioners, academics, and students concerning about the development of HCI as a thriving field in the global Chinese communities. Chinese CHI serves as a primary forum for connecting the international HCI community to the booming Chinese computing industry.
 
 The theme of Chinese CHI 2023 is Generative, Reflective, and Envisioning. As the first time we can gather globally again at Chinese CHI after the pandemic, We welcome discussions on the value, significance, and social contribution of human-computer interaction in a wide context. We plan to have all accepted papers included in the conference proceedings and published through the ACM Digital Library and EI Compendex.
 
