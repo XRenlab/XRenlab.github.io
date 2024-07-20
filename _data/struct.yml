@@ -1,29 +1,29 @@
 nav:
 
 - title: Home
-  url: /
+  url: /24/
   order: 1
 
 - title: For Authors
-  url: /callforpapers/
+  url: /24/callforpapers/
   order: 2
 
 - title: Registration
-  url: /registration/
+  url: /24/registration/
   order: 3
 
 - title: Program
-  url: /program/
+  url: /24/program/
   order: 4
 
 - title: IWHEC & Workshops
-  url: /iwhec2023/
+  url: /24/iwhec2023/
   order: 5
 
 - title: Committee
-  url: /committee/
+  url: /24/committee/
   order: 6
 
 - title: Sponsorship
-  url: /sponsorship/
+  url: /24/sponsorship/
   order: 7
