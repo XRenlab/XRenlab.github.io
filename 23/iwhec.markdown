@@ -1,7 +1,7 @@
 ---
-layout: iwhec
+layout: 23/iwhec
 title: IWHEC
-permalink: /23/iwhec2023/
+permalink: /23/iwhec/
 ---
 人机共协计算国际研讨会（International Workshop on Human-Engaged Computing， IWHEC 2023）立足于重新思考人与计算机之间的关系。通过邀请来自人机交互、脑科学、人文哲社、设计、计算机科学和人工智能等多个领域的专家分享他们的见解，我们期待于此搭建一个集智平台，促进全球思想交流。本届研讨会将采用混合形式进行，您可以选择亲临巴厘岛参与或通过直播观看。
 

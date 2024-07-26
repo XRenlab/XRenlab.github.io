@@ -129,7 +129,7 @@
               </li>
               {%- endif -%}
               {%- endfor -%} -->
-              {% assign navlist = site.data.struct.nav | sort: 'order'  %}
+              {% assign navlist = site.data.struct23.nav | sort: 'order'  %}
               {% for item in navlist %}
                   <li class="navbar-nav-item">
                     <a class="nav-link text-dark" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>

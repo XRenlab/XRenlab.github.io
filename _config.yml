@@ -33,10 +33,12 @@ email23: chchi2023@icachi.org
 # CHCHI24
 title24: Chinese CHI 2024
 email24: chchi2024@icachi.org
-keywordsCH24: XX · XX · XX
-keywordsEN24: XX · XX · XX
-venueCH24: 南方科技大学，深圳
-venueEN24: 南方科技大学，深圳
+keywordsZH24: 创新 · 创造 · 整合
+keywordsEN24: Innovation · Creativity · Integration
+dateZH24: 2024年11月22~25日
+dateEN24: November 22~25, 2024
+venueZH24: 南方科技大学，深圳
+venueEN24: Southern University of Science and Technology, Shenzhen, China
 
 # Build settings
 theme: minima
