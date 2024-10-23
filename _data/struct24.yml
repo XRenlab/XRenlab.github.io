@@ -16,14 +16,18 @@ nav:
   url: /24/program/
   order: 4
 
-- title: IWHEC & Workshops
-  url: /24/iwhec/
-  order: 5
+# - title: IWHEC
+#   url: /24/iwhec/
+#   order: 5
+
+- title: Workshops
+  url: /24/workshops/
+  order: 6
 
 - title: Committee
   url: /24/committee/
-  order: 6
+  order: 7
 
 - title: Sponsorship
   url: /24/sponsorship/
-  order: 7
+  order: 8
