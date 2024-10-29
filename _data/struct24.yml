@@ -16,9 +16,9 @@ nav:
   url: /24/program/
   order: 4
 
-# - title: IWHEC
-#   url: /24/iwhec/
-#   order: 5
+- title: IWHEC
+  url: /24/iwhec/
+  order: 5
 
 - title: Workshops
   url: /24/workshops/
