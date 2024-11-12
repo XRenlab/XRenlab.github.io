@@ -8,9 +8,9 @@ nav:
   url: /24/callforpapers/
   order: 2
 
-# - title: Registration
-#  url: /24/registration/
-#  order: 3
+- title: Registration
+  url: /24/registration/
+  order: 3
 
 - title: Program
   url: /24/program/
