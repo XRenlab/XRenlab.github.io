@@ -1,5 +1,5 @@
 ---
-layout: registration
+layout: 23/registration
 title: Registration
 permalink: /23/registration/
 ---
