@@ -40,6 +40,16 @@ dateEN24: November 22~25, 2024
 venueZH24: 南方科技大学，中国深圳
 venueEN24: Southern University of Science and Technology, Shenzhen, China
 
+# CHCHI25
+title25: Chinese CHI 2025
+email25: chchi2025@icachi.org
+keywordsZH25: 创智 · 反思 · 展望
+keywordsEN25: Generative · Reflective · Envisioning
+dateZH25: 2025年11月22~25日
+dateEN25: November 22-25, 2025
+venueZH25: 新加坡管理大学，新加坡
+venueEN25: Singapore Management University, Singapore
+
 # Build settings
 theme: minima
 plugins:
