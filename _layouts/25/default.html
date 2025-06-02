@@ -8,10 +8,14 @@
     {%- include 25/header.html -%}
 
     <main id="content" role="main">
-      {%- include 25/hero.html -%}
-              
+      {% if page.url == '/25/' or page.url == '/25/index.html' %} 
+        {% include 25/hero_home.html %} 
+      {% else %} 
+        {% include 25/hero_other.html %}
+      {% endif %}
+
         {{ content }}
-        
+
     </main>
 
     {%- include 25/footer.html -%}
