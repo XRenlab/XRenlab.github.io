@@ -1,14 +1,14 @@
 ---
 layout: 25/home
-title: Chinese CHI 2025
+title: ICHEC 2025
 permalink: /25/
 ---
 
 November 21-23, 2025, Singapore Management University, Singapore
 
-## About Chinese CHI
+## About ICHEC
 
-Chinese CHI is the leading international forum for Chinese HCI researchers and practitioners to share their research and development work. The conference provides a unique opportunity for networking and collaboration between Chinese and international HCI communities.
+ICHEC is the leading international forum for Chinese HCI researchers and practitioners to share their research and development work. The conference provides a unique opportunity for networking and collaboration between Chinese and international HCI communities.
 
 ## Important Dates
 
@@ -19,4 +19,4 @@ Chinese CHI is the leading international forum for Chinese HCI researchers and p
 
 ## Contact
 
-For any inquiries, please contact us at chchi2025@icachi.org 
+For any inquiries, please contact us at ichechost2025@gmail.com 
