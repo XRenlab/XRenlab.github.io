@@ -4,7 +4,7 @@ title: Chinese CHI 2025
 permalink: /25/
 ---
 
-November 22-25, 2025, Singapore Management University, Singapore
+November 21-23, 2025, Singapore Management University, Singapore
 
 ## About Chinese CHI
 
@@ -15,7 +15,7 @@ Chinese CHI is the leading international forum for Chinese HCI researchers and p
 - Paper Submission: TBD
 - Notification: TBD
 - Camera Ready: TBD
-- Conference: November 22-25, 2025
+- Conference: November 21-23, 2025
 
 ## Contact
 
