@@ -8,30 +8,30 @@ nav:
   url: /25/callforpapers/
   order: 2
 
-- title: Registration
-  url: /25/registration/
-  order: 3
+# - title: Registration
+#   url: /25/registration/
+#   order: 3
 
-- title: Program
-  url: /25/program/
-  order: 4
+# - title: Program
+#   url: /25/program/
+#   order: 4
 
-- title: IWHEC
-  url: /25/iwhec/
-  order: 5
+# - title: IWHEC
+#   url: /25/iwhec/
+#   order: 5
 
-- title: Symposium
-  url: /25/symposium/
-  order: 6
+# - title: Symposium
+#   url: /25/symposium/
+#   order: 6
 
-- title: Workshops
-  url: /25/workshops/
-  order: 7
+# - title: Workshops
+#   url: /25/workshops/
+#   order: 7
 
 - title: Committee
   url: /25/committee/
-  order: 8
+  order: 3
 
 - title: Sponsorship
   url: /25/sponsorship/
-  order: 9 
+  order: 4
