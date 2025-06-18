@@ -1,5 +1,5 @@
 ---
-layout: 25/home
+layout: 25/callforpaper
 title: Call for Papers
 permalink: /25/callforpapers/
 ---
