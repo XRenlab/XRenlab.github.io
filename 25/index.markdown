@@ -4,8 +4,6 @@ title: ICHEC 2025
 permalink: /25/
 ---
 
-Workshops & Courses: Nov 21, 2025 \\
-Main Conference: Nov 22-23, 2025
 
 
 ## About ICHEC
@@ -19,11 +17,12 @@ Join us in Singapore to be part of an HCI community committed to rethinking how 
 
 ## Important Dates
 
-- Paper Submission: TBD
-- Notification: TBD
-- Camera Ready: TBD
-- Conference: November 21-23, 2025
+- Paper Submission: Sep 18, 2025
+- Notification: Oct 18, 2025
+- Camera Ready: TBA
+- Workshops & Courses: Nov 21, 2025
+- Main Conference: Nov 22-23, 2025
 
 ## Contact
 
-For any inquiries, please contact us at ichechost2025@gmail.com 
+For any inquiries, please contact us at [ichechost2025@gmail.com](mailto:ichechost2025@gmail.com)
