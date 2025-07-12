@@ -12,9 +12,9 @@ nav:
 #   url: /25/registration/
 #   order: 3
 
-# - title: Program
-#   url: /25/program/
-#   order: 4
+- title: Program
+  url: /25/program/
+  order: 3
 
 # - title: IWHEC
 #   url: /25/iwhec/
@@ -30,8 +30,8 @@ nav:
 
 - title: Committee
   url: /25/committee/
-  order: 3
+  order: 4
 
 - title: Sponsorship
   url: /25/sponsorship/
-  order: 4
+  order: 5

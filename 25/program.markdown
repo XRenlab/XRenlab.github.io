@@ -1,5 +1,5 @@
 ---
-layout: 25/home
+layout: 25/program
 title: Program
 permalink: /25/program/
 ---
