@@ -24,14 +24,14 @@ nav:
 #   url: /25/symposium/
 #   order: 6
 
-# - title: Workshops
-#   url: /25/workshops/
-#   order: 7
+- title: Workshops
+  url: /25/workshops/
+  order: 4
 
 - title: Committee
   url: /25/committee/
-  order: 4
+  order: 5
 
 - title: Sponsorship
   url: /25/sponsorship/
-  order: 5
+  order: 6

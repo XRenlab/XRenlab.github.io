@@ -1,5 +1,5 @@
 ---
-layout: 25/home
+layout: 25/workshops
 title: Workshops
 permalink: /25/workshops/
 ---
