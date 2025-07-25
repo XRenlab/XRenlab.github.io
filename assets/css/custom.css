@@ -72,3 +72,23 @@
   color: #666;
   font-size: 0.85em;
 }
+
+.logo-icachi {
+  height: 80px;
+  width: auto;
+}
+
+.logo-smu {
+  height: 100px;
+  width: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo-container {
+  padding: 1rem;
+  max-width: 280px;
+}
