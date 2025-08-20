@@ -38,7 +38,6 @@
   background-color: #eeeeee;
   border-radius: 6px;
   border-bottom: none;
-
 }
 
 #sider-menu .navbar-nav>.active>a {
@@ -91,4 +90,22 @@ img {
 .logo-container {
   padding: 1rem;
   max-width: 280px;
+}
+
+/* Prevent horizontal overflow on small screens */
+html, body {
+  overflow-x: hidden;
+}
+
+#content {
+  overflow-x: hidden;
+}
+
+/* Allow nav tabs to wrap on narrow viewports */
+.nav.nav-classic {
+  flex-wrap: wrap;
+}
+
+.nav.nav-classic .nav-link {
+  white-space: normal;
 }
