@@ -16,8 +16,11 @@ Join us in Singapore to be part of an HCI community committed to rethinking how 
 
 ## Important Dates
 
-- Paper Submission: Sep 18, 2025
-- Notification: Oct 18, 2025
+- Abstract Submission: Sep 14, 2025
+- Full Paper Submission: Sep 18, 2025
+- Short Paper Submission: Sep 25, 2025
+- Full Paper Notification: Oct 18, 2025
+- Short Paper Notification: Oct 27, 2025
 - Camera Ready: TBA
 - Workshops & Courses: Nov 21, 2025
 - Main Conference: Nov 22-23, 2025
