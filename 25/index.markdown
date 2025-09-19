@@ -27,4 +27,6 @@ Join us in Singapore to be part of an HCI community committed to rethinking how 
 
 ## Contact
 
-For any inquiries, please contact us at [ichechost2025@gmail.com](mailto:ichechost2025@gmail.com)
+For any inquiries, please contact us at [ichechost2025@gmail.com](mailto:ichechost2025@gmail.com).
+
+If you require an official invitation letter to attend the conference, please email your request to [ichec@smu.edu.sg](mailto:ichec@smu.edu.sg).
