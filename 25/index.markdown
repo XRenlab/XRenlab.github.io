@@ -19,7 +19,7 @@ Join us in Singapore to be part of an HCI community committed to rethinking how 
 - Abstract Submission: ~~Sep 14, 2025, 23:59 (AOE)~~ <span style="color:red;">Sep 25, 2025, 23:59 (AOE)</span>
 - Full Paper Submission: ~~Sep 18, 2025, 23:59 (AOE)~~ <span style="color:red;">Sep 25, 2025, 23:59 (AOE)</span>
 - Full Paper Notification: Oct 18, 2025, 23:59 (AOE)
-- Short Paper Submission: Sep 25, 2025, 23:59 (AOE)
+- Short Paper Submission: ~~Sep 25, 2025, 23:59 (AOE)~~ <span style="color:red;">Oct 2, 2025, 23:59 (AOE)</span>
 - Short Paper Notification: Oct 27, 2025, 23:59 (AOE)
 - Camera Ready: TBA
 - Workshops & Courses: Nov 21, 2025
