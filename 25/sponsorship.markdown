@@ -1,5 +1,5 @@
 ---
-layout: 25/home
+layout: 25/sponsorship
 title: Sponsorship
 permalink: /25/sponsorship/
 ---
