@@ -32,10 +32,14 @@ nav:
   url: /25/workshops/
   order: 5
 
+- title: AMA Lunch
+  url: /25/amalunch/
+  order: 6
+
 - title: Committee
   url: /25/committee/
-  order: 6
+  order: 7
 
 - title: Sponsorship
   url: /25/sponsorship/
-  order: 7
+  order: 8
