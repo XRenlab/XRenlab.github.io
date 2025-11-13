@@ -1,0 +1,81 @@
+/* ===== ICHEC theme colors ===== */
+:root{
+    --ichec-primary: #872657; /* 主色（可改 #702963 更偏紫） */
+    --ichec-primary-weak: #f8eef4; /* 浅色悬停背景 */
+    --ichec-border: #d8c3cf;
+    --ichec-light: #f8eef4;   /* hover 时浅背景色 */
+  }
+
+/* 普通状态 */
+.nav-tabs .nav-link {
+    color: #6c757d; /* 默认灰 */
+  }
+  
+  /* hover 状态 */
+  .nav-tabs .nav-link:hover {
+    color: var(--ichec-primary) !important;
+  }
+  
+  /* 激活状态（当前选中） */
+  .nav-tabs .nav-link.active {
+    color: var(--ichec-primary) !important;
+    border-color: var(--ichec-primary) !important; /* 改底线颜色 */
+  }
+  
+  /* 如果你的框架使用伪元素渲染下划线（例如 Material Tabs），加上这段 */
+  .nav-tabs .nav-link.active::after,
+  .nav-tabs .nav-link:hover::after {
+    background-color: var(--ichec-primary) !important;
+  }
+
+.program-table {
+    font-size: 0.9rem; 
+  }
+  
+  .program-table thead th {
+    background-color: #702963; 
+    color: #fff;
+    vertical-align: middle;
+  }
+  
+  .program-table tbody tr:nth-child(odd) {
+    background-color: #faf7fb;
+  }
+  
+  .program-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  .program-table td,
+  .program-table th {
+    vertical-align: middle;
+  }
+  
+  .program-table small {
+    font-size: 0.8em;
+    color: #ffffff;
+  }
+  
+  .program-table b {
+    color: #A72C63; 
+  }
+
+  /* 固定左侧时间列宽度，让其他列自然适配 */
+.program-table th:first-child,
+.program-table td:first-child {
+  width: 130px;         /* 或者 12%、固定像素都行 */
+  min-width: 120px;     /* 避免被压缩 */
+  white-space: nowrap;  /* 防止时间换行 */
+  
+}
+
+/* 让其他列自动分配剩余空间 */
+.program-table th:not(:first-child),
+.program-table td:not(:first-child) {
+  width: auto;
+}
+
+  .text-primary {
+    color: var(--ichec-primary) !important;
+  }
+  
