@@ -1,7 +1,6 @@
 ---
-layout: program
+layout: 23/program
 title: Program
 permalink: /23/program/
 ---
 
-## To be announced ...

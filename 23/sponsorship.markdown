@@ -1,5 +1,5 @@
 ---
-layout: sponsorship
+layout: 23/sponsorship
 title: Sponsorship
 permalink: /23/sponsorship/
 ---
